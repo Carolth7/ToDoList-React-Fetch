@@ -1,13 +1,60 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+// body, html { height: 100%; }
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(ellipse farthest-corner at center top, #ffeb3b70 0%, #ff9c07bf 100%);
+    // background-image: url("../img/fondoTareas.png"); 
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-attachment: fixed;
+}
+.todoList{
+  width: 25rem;
 
-*/
+  background-color: white;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: darkcyan;
+    font-family: monospace;
+}
+
+input {
+  text-align: center
+}
+
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  padding: initial;
+}
+
+.list-group-item {
+  border-top-width: 0;
+  font-family: fangsong;
+  font-size: larger;
+}
+
+li:hover {
+
+  background-color: #008b8bcf;
+  color: white;
+
+}
+
+button {
+  font-size: smaller;
+
+}
+
